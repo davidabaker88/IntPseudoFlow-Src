@@ -1,0 +1,33 @@
+Create pseudocode for the following program:
+
+The program converts measurements from feet to meters,
+and from meters to feet.
+
+Instructions:
+-The program should get the distance using the following prompt: "Enter a distance:"
+-If the input is not a number it should display: "Not a number" and end the program
+-The program should get unit for the distance entered using the following prompt: "Enter unit (meters/feet):" 
+-If the input is not ("meters/feet") it should display: "Not a valid unit" and end the program
+-The program then should convert the original entered amount into the other unit of measurement.
+-The program should print out the result rounded to 2 decimal places.
+
+Note use these conversion rates:
+1 meter = 3.28 feet
+
+Assumtions: None
+
+
+Example test cases
+-----------------------------------------------------------
+//test 1
+o:Enter a distance:
+i:1
+o:Enter unit (meters/feet):
+i:meters
+o:3.28 feet
+//test 2
+o:Enter a distance:
+i:1
+o:Enter unit (meters/feet):
+i:miles
+o:Not a valid unit
